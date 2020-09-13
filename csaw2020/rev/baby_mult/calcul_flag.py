@@ -1,0 +1,7 @@
+array = [0x4f,0x14be74f15,0x4,0x3,0x13,0x115,0x77cf4b645b61,0x2,0x11,0x21c1,0x182265e9,0x833,0xaab,0x8daaad]
+stack = [hex(a[0]*a[1]),hex(a[2]*a[3]*a[4]*a[5]*a[6]),hex(a[7]*a[8]*a[9]*a[10]),hex(a[11]*a[12]*a[13])]
+#['0x666c61677b', '0x73757033725f7634', '0x6c31645f7072', '0x306772346d7d']
+flag = ""
+for i in c :
+    flag+=i[2:]
+print(flag.decode("hex"))
